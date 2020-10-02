@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'org.jetbrains.kotlin.android.extensions'
+
+android {
+    compileSdkVersion prjectCompileSdkVersion
+
+    defaultConfig {
+        applicationId "esi.app.trakfunny"
+        minSdkVersion projectMinSdkVersion
+        targetSdkVersion projectTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        setProperty("archivesBaseName", "TrakFunny-v$versionName")
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        buildConfigField("String", "API_KEY", "\"$serverApiKey\"")
+        buildConfigField("String", "API_BASE_URL", "\"$baseUrl\"")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            assets {
+                srcDirs 'src/main/assets', 'res/assets/'
+            }
+        }
+    }
+
+    androidExtensions {
+        experimental = true
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation kotlinLibs
+    implementation testLibs
+    implementation supportLibs
+    implementation daggerLibs
+    implementation rxJavaLibs
+    implementation rxAndroidLibs
+    implementation networkLibs
+    implementation databaseLibs
+    implementation databaseViewer
+    implementation utils
+    implementation navigationLib
+    implementation lottieLib
+    implementation coilImageLoaderLib
+    kapt annotationLibs
+    implementation project(path: ':domain')
+    implementation project(path: ':data')
+    implementation project(path: ':library:daggercore')
+}

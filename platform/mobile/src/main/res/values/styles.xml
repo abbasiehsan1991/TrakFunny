@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TextAppearance.detail.Title" parent="@style/TextAppearance.AppCompat.Large">
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <!--     *****************************************************************************
+                                  Default Styles
+        *****************************************************************************  -->
+    <style name="default_text_form"></style>
+
+    <!--     *****************************************************************************
+                                      Header Styles
+            *****************************************************************************  -->
+    <style name="header_light_form" parent="default_text_form">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_6</item>
+    </style>
+
+    <style name="header_normal_form" parent="default_text_form">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_5</item>
+    </style>
+
+
+    <style name="header_large_form" parent="default_text_form">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_4</item>
+    </style>
+
+
+    <style name="header_xLarge_form" parent="default_text_form">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_3</item>
+    </style>
+
+
+    <style name="header_xxLarge_form" parent="default_text_form">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_2</item>
+    </style>
+
+
+    <style name="header_xxxLarge_form" parent="default_text_form">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_1</item>
+    </style>
+
+    <!--     *****************************************************************************
+                                       Description Styles
+             *****************************************************************************  -->
+    <style name="description_light_form" parent="default_text_form">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/description_light</item>
+    </style>
+
+    <style name="description_normal_form" parent="default_text_form">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/description_normal</item>
+    </style>
+
+    <style name="description_large_form" parent="default_text_form">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/description_large</item>
+    </style>
+
+    <style name="description_xlarge_form" parent="default_text_form">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/description_xlarge</item>
+    </style>
+</resources>

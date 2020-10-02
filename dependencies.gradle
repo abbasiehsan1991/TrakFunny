@@ -1,0 +1,196 @@
+ext {
+
+    libVersion = [
+
+            kotlinVersion = '1.3.72',
+
+            compileSdkVersion = '28',
+            buildToolsVersion = '28',
+
+            //Test
+            jUnitVersion = "4.13-beta-3",
+            assertJVersion = "3.12.2",
+            supportTestVersion = "1.1.0",
+            supportCoreVersion = "1.0.0",
+            espressoVersion = "3.1.0-alpha3",
+
+            //Arrow
+            arrowVersion = "0.9.0",
+
+            // App dependencies
+            supportLibraryVersion = "1.1.0",
+            supportLegacyLibraryVersion = "1.0.0-alpha1",
+            googleMaterialVersion = "1.0.0-rc01",
+            pagingComponentVersion = "1.0.0-alpha6",
+            constraintLayoutVersion = "2.0.0-beta4",
+            archComponentVersion = "2.2.0",
+            multidexVersion = "2.0.0",
+
+            //Navigation component
+            navigationVersion = "2.3.0-alpha06",
+
+            androidKotlinExtVersion1 = "1.0.0",
+            androidKotlinExtVersion2 = "2.0.0",
+
+            // Architecture Components
+            roomVersion = "1.1.1",
+            archLifecycleVersion = "1.1.1",
+
+            // Retrofit
+            retrofitVersion = "2.4.0",
+            okHttpVersion = "4.0.1",
+
+            // Dagger
+            daggerVersion = '2.27',
+
+            //RX
+            rxJavaVersion = "3.0.3",
+            rxKotlinVersion = "3.0.0",
+            //rxBindingVersion = "3.0.0",
+            rxAndroidVersion = "3.0.0",
+            //rxBroadCastVersion = "2.0.0",
+            //rxPreferencesVersion = "2.0.0",
+
+            //Test
+            mokitoVersion = '2.11.0',
+            mokitoKotlinVersion = '1.5.0',
+
+            //Database
+            roomVersion = "2.2.5",
+
+            //Utils
+            timberVersion = "4.7.1",
+            lottieVersion = "3.3.1"
+
+    ]
+
+    libs = [
+            testLibs = [
+                    junit = "junit:junit:$jUnitVersion"
+            ],
+
+            androidTestLibs = [
+                    supportTestRunner = "androidx.test:runner:$supportTestVersion",
+                    supportTestCore = "androidx.test:core:$supportTestVersion",
+                    supportTestRule = "androidx.test:rules:$supportTestVersion",
+                    supportJunitExt = "androidx.test.ext:junit:$supportCoreVersion",
+                    supportCore = "androidx.test:core:$supportTestVersion",
+                    espressoCore = "androidx.test.espresso:espresso-core:$espressoVersion",
+                    espressoIntents = "androidx.test.espresso:espresso-intents:$espressoVersion",
+                    espressoContrib = "androidx.test.espresso:espresso-contrib:$espressoVersion"
+            ],
+
+            kotlinLibs = [
+                    kotlinStd7 = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion",
+                    kotlinStd8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
+            ],
+
+            arrowKotlin = [
+                    arrowCore = "io.arrow-kt:arrow-core-data:$arrowVersion",
+                    arrowExtensions = "io.arrow-kt:arrow-core-extensions:$arrowVersion",
+
+                    arrowSyntax = "io.arrow-kt:arrow-syntax:$arrowVersion",
+                    arrowTypeClasses = "io.arrow-kt:arrow-typeclasses:$arrowVersion",
+
+                    arrowExtras = "io.arrow-kt:arrow-extras-data:$arrowVersion",
+                    arrowExtrasExtensions = "io.arrow-kt:arrow-extras-extensions:$arrowVersion",
+
+                    arrowEffectData = "io.arrow-kt:arrow-effects-data:$arrowVersion",
+                    arrowEffectExtensions = "io.arrow-kt:arrow-effects-extensions:$arrowVersion",
+
+                    arrowEffectRx = "io.arrow-kt:arrow-effects-rx2-data:$arrowVersion",
+                    arrowEffectRxExtensions = "io.arrow-kt:arrow-effects-rx2-extensions:$arrowVersion",
+
+                    arrowEffectCoroutine = "io.arrow-kt:arrow-effects-kotlinx-coroutines-data:$arrowVersion",
+                    arrowEffectCoroutineExtensions = "io.arrow-kt:arrow-effects-kotlinx-coroutines-extensions:$arrowVersion",
+
+                    arrowCompiler = "io.arrow-kt:arrow-meta:$arrowVersion"
+            ],
+
+            supportLibs = [
+                    compat = "androidx.appcompat:appcompat:$supportLibraryVersion",
+                    androidxCore = "androidx.core:core:$supportLibraryVersion",
+                    annotation = "androidx.annotation:annotation:$supportLibraryVersion",
+                    supportLegacy = "androidx.legacy:legacy-support-v4:$supportLegacyLibraryVersion",
+                    design = "com.google.android.material:material:$googleMaterialVersion",
+                    constraintLayout = "androidx.constraintlayout:constraintlayout:1.1.3"
+            ],
+
+            multidexLib = [
+                    multiDex = "androidx.multidex:multidex:$multidexVersion"
+            ],
+
+            archComponent = [
+                    lifecycleRuntime = "androidx.lifecycle:lifecycle-runtime-ktx:$archComponentVersion",
+                    viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$archComponentVersion",
+                    liveData = "androidx.lifecycle:lifecycle-livedata-ktx:$archComponentVersion"
+            ],
+
+            androidKts = [
+                    coreKts = "androidx.core:core-ktx:$androidKotlinExtVersion1",
+                    fragmentKts = "androidx.fragment:fragment-ktx:$androidKotlinExtVersion1",
+                    collectionKts = "androidx.collection:collection-ktx:$androidKotlinExtVersion1",
+                    viewModelKts = "androidx.lifecycle:lifecycle-viewmodel-ktx:$androidKotlinExtVersion2"
+            ],
+
+            networkLibs = [
+                    retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion",
+                    retrofitConvertorGson = "com.squareup.retrofit2:converter-gson:$retrofitVersion",
+                    okHttpLogging = "com.squareup.okhttp3:logging-interceptor:$okHttpVersion",
+                    gson = "com.google.code.gson:gson:2.8.5"
+            ],
+
+            rxJavaLibs = [
+                    rxJava = "io.reactivex.rxjava3:rxjava:$rxJavaVersion",
+                    rxKotlin = "io.reactivex.rxjava3:rxkotlin:$rxKotlinVersion",
+            ],
+
+            rxAndroidLibs = [
+                    rxAndroid = "io.reactivex.rxjava3:rxandroid:$rxAndroidVersion",
+                    rxRetrofitAdapter = "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0"
+            ],
+
+            navigationLib = [
+                    navigationFragment = "androidx.navigation:navigation-fragment-ktx:$navigationVersion",
+                    navigationUi = "androidx.navigation:navigation-ui-ktx:$navigationVersion",
+                    navigationDynamic = "androidx.navigation:navigation-dynamic-features-fragment:$navigationVersion",
+            ],
+
+            navigationComponentTestLib = [
+                    navigationTests = "androidx.navigation:navigation-testing:$navigationVersion"
+            ],
+
+            daggerLibs = [
+                   dagger = "com.google.dagger:dagger:$daggerVersion",
+            ],
+
+            databaseLibs = [
+                    room = "androidx.room:room-runtime:$roomVersion",
+
+            ],
+
+            databaseViewer = [
+                    stetho = "com.facebook.stetho:stetho:1.5.1"
+            ],
+
+            annotationLibs = [
+                    roomComplier = "androidx.room:room-compiler:$roomVersion",
+                    daggerComplier = "com.google.dagger:dagger-compiler:$daggerVersion",
+            ],
+            ui = [
+                    lottie = "com.airbnb.android:lottie:$lottieVersion",
+            ],
+
+            lottieLib = [
+                    lottie = "com.airbnb.android:lottie:$lottieVersion"
+            ],
+
+            coilImageLoaderLib = [
+                    coil = "io.coil-kt:coil:0.11.0"
+            ],
+
+            utils = [
+                    stetho = "com.facebook.stetho:stetho:1.5.1"
+            ]
+    ]
+}

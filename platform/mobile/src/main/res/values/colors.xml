@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main config -->
+    <color name="colorPrimary">#062640</color>
+    <color name="colorPrimaryDark">#ff0a0a0a</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- main color -->
+    <color name="white">#ffffff</color>
+    <color name="gray">#707070</color>
+    <color name="blueGray">#8199a4</color>
+
+</resources>

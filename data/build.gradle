@@ -1,0 +1,11 @@
+apply from: androidLib
+
+dependencies {
+    implementation databaseLibs
+    implementation daggerLibs
+    kapt annotationLibs
+    implementation rxJavaLibs
+    implementation rxAndroidLibs
+    implementation networkLibs
+    implementation project(path: ':domain')
+}

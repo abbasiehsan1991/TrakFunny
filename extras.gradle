@@ -1,0 +1,9 @@
+ext {
+
+    prjectCompileSdkVersion = 29
+    projectMinSdkVersion = 16
+    projectTargetSdkVersion = 29
+
+    androidLib = "$rootDir/androidLib.gradle"
+    kotlinLib = "$rootDir/kotlinLib.gradle"
+}

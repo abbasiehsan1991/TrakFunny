@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Unknown</string>
+
+    <string name="text_error_fetching_cached_data_from_db">Something went wrong while detching data from DB</string>
+
+    <!-- Bottom Navigation menu -->
+    <string name="menu_main_premium_title">نامحدود</string>
+    <string name="menu_main_home_title">‌خانه</string>
+    <string name="menu_main_news_title">اخبار</string>
+    <string name="menu_main_profile_title">حساب کاربری</string>
+    <string name="main_menu_profile_description">Profile Description</string>
+    <string name="main_menu_news_description">News Description</string>
+    <string name="main_menu_home_description">Home Description</string>
+    <string name="main_menu_premium_description">Premium Description</string>
+
+
+    <!-- Fragment's title-->
+    <string name="fragment_premium_title">نامحدود</string>
+    <string name="fragment_home_title">خانه</string>
+    <string name="fragment_news_title">اخبار</string>
+    <string name="fragment_profile_title">حساب کاربری</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TrakFunny.iml" filepath="$PROJECT_DIR$/.idea/TrakFunny.iml" group="TrakFunny" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/daggercore/daggercore.iml" filepath="$PROJECT_DIR$/.idea/modules/library/daggercore/daggercore.iml" group="TrakFunny/library/daggercore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/data.iml" group="TrakFunny/data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" group="TrakFunny/domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature/feature.iml" filepath="$PROJECT_DIR$/.idea/modules/feature/feature.iml" group="TrakFunny/feature" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/library.iml" group="TrakFunny/library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform/mobile/mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/platform/mobile/mobile.iml" group="TrakFunny/platform/mobile" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform/platform.iml" filepath="$PROJECT_DIR$/.idea/modules/platform/platform.iml" group="TrakFunny/platform" />
+    </modules>
+  </component>
+</project>

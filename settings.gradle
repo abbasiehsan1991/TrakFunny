@@ -1,0 +1,9 @@
+include ':platform:mobile'
+
+include ':feature'
+
+include ':library:daggercore'
+
+include':data'
+
+include ':domain'

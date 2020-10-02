@@ -1,0 +1,9 @@
+apply from: kotlinLib
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation testLibs
+    implementation rxJavaLibs
+    implementation daggerLibs
+    implementation gson
+}
