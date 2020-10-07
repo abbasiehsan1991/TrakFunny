@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Unknown</string>
+    <string name="app_name">Trak Funny</string>
 
     <!-- Error Messages -->
     <string name="text_error_fetching_cached_data_from_db">Something went wrong while detching data from DB</string>
