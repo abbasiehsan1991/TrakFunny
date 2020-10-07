@@ -1,6 +1,6 @@
 include ':platform:mobile'
 
-include ':feature'
+include ':feature:home'
 
 include ':library:daggercore'
 
