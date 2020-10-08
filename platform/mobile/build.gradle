@@ -59,7 +59,6 @@ dependencies {
     implementation networkLibs
     implementation databaseLibs
     implementation databaseViewer
-    implementation utils
     implementation navigationLib
     implementation lottieLib
     implementation coilImageLoaderLib
@@ -67,4 +66,5 @@ dependencies {
     implementation project(path: ':domain')
     implementation project(path: ':data')
     implementation project(path: ':library:daggercore')
+    implementation project(path: ':feature:home')
 }

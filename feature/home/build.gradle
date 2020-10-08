@@ -8,7 +8,8 @@ dependencies {
     implementation rxJavaLibs
     implementation rxAndroidLibs
     implementation networkLibs
-    implementation utils
     implementation navigationLib
+    implementation lottieLib
+    implementation coilImageLoaderLib
     kapt annotationLibs
 }

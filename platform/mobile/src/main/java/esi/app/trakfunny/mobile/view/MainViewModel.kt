@@ -1,4 +1,4 @@
-package esi.app.trakfunny.view
+package esi.app.trakfunny.mobile.view
 
 import androidx.lifecycle.ViewModel
 import javax.inject.Inject

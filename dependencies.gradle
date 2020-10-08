@@ -177,6 +177,7 @@ ext {
                     roomComplier = "androidx.room:room-compiler:$roomVersion",
                     daggerComplier = "com.google.dagger:dagger-compiler:$daggerVersion",
             ],
+
             ui = [
                     lottie = "com.airbnb.android:lottie:$lottieVersion",
             ],
@@ -187,10 +188,6 @@ ext {
 
             coilImageLoaderLib = [
                     coil = "io.coil-kt:coil:0.11.0"
-            ],
-
-            utils = [
-                    stetho = "com.facebook.stetho:stetho:1.5.1"
             ]
     ]
 }

@@ -1,11 +1,11 @@
-package esi.app.trakfunny.view
+package esi.app.trakfunny.mobile.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import esi.app.trakfunny.R
-import esi.app.trakfunny.ext.findCoreComponent
+import esi.app.trakfunny.mobile.R
+import esi.app.trakfunny.mobile.ext.findCoreComponent
 import esi.app.trakfunny.view.maincomponent.DaggerMainComponent
 import javax.inject.Inject
 import javax.inject.Provider
@@ -31,5 +31,6 @@ class MainActivity : AppCompatActivity() {
             override fun <T : ViewModel?> create(modelClass: Class<T>): T =
                 viewModelProvider.get() as T
         }).get(MainViewModel::class.java)
+
     }
 }

@@ -1,4 +1,4 @@
-package esi.app.trakfunny.ext
+package esi.app.trakfunny.mobile.ext
 
 import android.content.Context
 import esi.app.trakfunny.daggercore.core.CoreComponent

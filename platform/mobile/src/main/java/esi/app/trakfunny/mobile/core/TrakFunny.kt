@@ -1,4 +1,4 @@
-package esi.app.trakfunny.core
+package esi.app.trakfunny.mobile.core
 
 import android.app.Application
 import com.facebook.stetho.Stetho
