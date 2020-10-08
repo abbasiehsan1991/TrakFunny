@@ -2,11 +2,11 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_nav"
-    app:startDestination="@id/navigation_home">
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/home_destination">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/home_destination"
         android:name="esi.app.trakfunny.home.view.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" />

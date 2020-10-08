@@ -5,7 +5,7 @@ import esi.app.trakfunny.daggercore.builder.ViewModelBuilder
 import esi.app.trakfunny.daggercore.network.NetComponent
 import esi.app.trakfunny.daggercore.network.RepositoryBuilder
 import esi.app.trakfunny.daggercore.scope.ActivityScope
-import esi.app.trakfunny.view.MainActivity
+import esi.app.trakfunny.mobile.view.MainActivity
 
 @ActivityScope
 @Component(dependencies = [NetComponent::class], modules = [RepositoryBuilder::class, ViewModelBuilder::class])

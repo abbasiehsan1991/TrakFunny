@@ -4,9 +4,12 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.setupWithNavController
 import esi.app.trakfunny.mobile.R
 import esi.app.trakfunny.mobile.ext.findCoreComponent
 import esi.app.trakfunny.view.maincomponent.DaggerMainComponent
+import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 import javax.inject.Provider
 
@@ -32,5 +35,6 @@ class MainActivity : AppCompatActivity() {
                 viewModelProvider.get() as T
         }).get(MainViewModel::class.java)
 
+        mainActivityBottomNavogation.setupWithNavController(mainActivityNavHost.findNavController())
     }
 }
